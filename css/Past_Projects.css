@@ -1,0 +1,28 @@
+body{
+    margin: auto;
+}
+
+.text-center{
+    text-align: center !important;
+}
+.container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 1200px){
+    .container{
+    max-width: 1140px;
+    }
+}
+.headertext{
+    font-size: 25px;
+    text-decoration: underline;
+}
+.desctext{
+    font-size: 15px;
+}
